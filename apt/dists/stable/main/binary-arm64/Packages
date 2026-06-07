@@ -1,0 +1,669 @@
+Package: moshpit-agent-fido2-unstable
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 10179
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-unstable, moshpit-agent-systemd-creds-unstable, moshpit-agent-ssh-agent-piggyback-unstable, moshpit-agent-full-unstable
+Filename: pool/main/moshpit-agent-fido2-unstable_0.8.20_amd64.deb
+Size: 3474518
+MD5sum: de921c754aa6c9c14cf8d0cb22b3ee1f
+SHA1: 571fa30fc397a43b8e28ba88d4a7832d5465c77b
+SHA256: b6652eddb386c1b9f934e28276f2f165067ae2a3188284fa34eb831787cbf5b7
+SHA512: 8a625baae5a867ad6fc611739ea0378b88fd146b9214c23858256022e950e99075f469f0f2f01454df30a2a476ee0bc739be74107702606b9a2ebfe128e91554
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — FIDO2/YubiKey unlock with post-quantum ML-DSA support.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock via FIDO2/YubiKey hardware key.
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-fido2-unstable
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 8548
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-unstable, moshpit-agent-systemd-creds-unstable, moshpit-agent-ssh-agent-piggyback-unstable, moshpit-agent-full-unstable
+Filename: pool/main/moshpit-agent-fido2-unstable_0.8.20_arm64.deb
+Size: 3241980
+MD5sum: 99c2932e8f31f3d7e358c2f25334b1a8
+SHA1: 9ac2bc24fa7d6d86b6838cc4495e4fd065f95990
+SHA256: 471710eec514de057ce5cff2ddbe15e4acffd339c99b3c778c64fce2ff6e151e
+SHA512: 8b58034ca461a5b2679e4351925d6b922b41ecccbc5489014b51e27779daf05aa813d08ebe0f1e8714c5a3fa22e17b001cf9b813f55c812d330c72f39bb4c73a
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — FIDO2/YubiKey unlock with post-quantum ML-DSA support.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock via FIDO2/YubiKey hardware key.
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-fido2
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 9896
+Conflicts: moshpit-agent, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full
+Filename: pool/main/moshpit-agent-fido2_0.8.20_amd64.deb
+Size: 3394520
+MD5sum: 266afb7dd026fc54f0ed43585dfb4bdc
+SHA1: 06b78663b4d2713582859457f0cf7f705a2b46dc
+SHA256: 6a24ed0b211ea22646aeacfde04d4975d723cd9daf6deebdd750041860c87654
+SHA512: 1b5438d6d69073c08484e9d7989358405b602481f75974342df1ece34a9ce5fbfd16b758ee99888645f9d09b837a3deac625abab709c3404c7b37b03dc90efb5
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — FIDO2/YubiKey unlock backend.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock via FIDO2/YubiKey hardware key.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-fido2
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 8298
+Conflicts: moshpit-agent, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full
+Filename: pool/main/moshpit-agent-fido2_0.8.20_arm64.deb
+Size: 3169558
+MD5sum: b7f9d6b5beec2878b2797407d81536ca
+SHA1: a28bb84743aec3b79951763c16f9edb7c33f06ff
+SHA256: 01f588e57a78fbc06cd39a2f4e825f117330f41a0b4793076d4ecaa5d9528f81
+SHA512: 82d7802e51b7fe6f749487cb708408f7eecdbc1a156a892140f8e6ec44b00ede6a72693bf2d07a6bfdb44c194a4c1fc73f572e41f1f93f3e2126afe7186a6bcd
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — FIDO2/YubiKey unlock backend.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock via FIDO2/YubiKey hardware key.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-full-unstable
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 10192
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-unstable, moshpit-agent-fido2-unstable, moshpit-agent-systemd-creds-unstable, moshpit-agent-ssh-agent-piggyback-unstable
+Filename: pool/main/moshpit-agent-full-unstable_0.8.20_amd64.deb
+Size: 3475280
+MD5sum: bb5a73fd0a5a8e98970a88fefd6f6c74
+SHA1: d260c2aff300eca881ac769bdd9ddd94fc7c9490
+SHA256: b4fb839ba269a6d875d8a583cbb8027f87fefa7b76795c10da69e509d13ae3ff
+SHA512: d49e8259b27778412b2983c22a1f0086dc10f3ca4a0643c4a2bacb0dbd811fa33ecda52ca93f5512a6ea64b33c74fcfe4b158d8b6434aefda7916fe760129ff3
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — all MUSL-portable unlock backends with post-quantum ML-DSA support.
+ Includes: passphrase, FIDO2, systemd credentials, and SSH agent piggyback.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket.
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-full-unstable
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 8553
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-unstable, moshpit-agent-fido2-unstable, moshpit-agent-systemd-creds-unstable, moshpit-agent-ssh-agent-piggyback-unstable
+Filename: pool/main/moshpit-agent-full-unstable_0.8.20_arm64.deb
+Size: 3243764
+MD5sum: 3375763eb071483ea847a7cdb0bf2c0a
+SHA1: 441caced0863528be8cad1e1a7c12a736aef6aab
+SHA256: 59da7fbf201a648d51e2943c3c63978b3446014cf70ac68823624f2d641c4f3e
+SHA512: b68871c357a4974637f457d3afb62e7958fdebfedc5b6919cc67b16f107cb5d43c3b501df082ece9b898008d732635b14af7c65b9b3cf70ced63caedf465eb6c
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — all MUSL-portable unlock backends with post-quantum ML-DSA support.
+ Includes: passphrase, FIDO2, systemd credentials, and SSH agent piggyback.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket.
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-full
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 9897
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback
+Filename: pool/main/moshpit-agent-full_0.8.20_amd64.deb
+Size: 3393808
+MD5sum: a1d9252f7b4e19319f6fcf321150e628
+SHA1: 8c6136514c1e1db0d483afd0eabfca6eea93ae6d
+SHA256: 411b35649be5c6380a090af4b5a2d95d8dab862780695bdbb1f02fd565eccf7a
+SHA512: deb9a7c58ff56e3a983d59fab05d5b496bcc4959046948595752799e1252feb34bac86815c96228c618a0cad0fffa2f207cf887b0698eb14d4fee37da7160d6d
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — all MUSL-portable unlock backends.
+ Includes: passphrase, FIDO2, systemd credentials, and SSH agent piggyback.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-full
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 8300
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback
+Filename: pool/main/moshpit-agent-full_0.8.20_arm64.deb
+Size: 3170436
+MD5sum: f801bc2adddb52f8188abf4ae03e59a5
+SHA1: 051dcabbc2c70bc7114a7a2df76068ac26788a12
+SHA256: 5a41c55808946455d7d2445e0258b4fac7618af7f4a669de238ea9bbba449be3
+SHA512: 5eb214d170bce4d3cd97fb9d5dd444d86354d87461468600b2048740506cba67eab3456cebbf1a313ccb6b153a1a5030387f46fcdbadce13e5d736f979f827d4
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — all MUSL-portable unlock backends.
+ Includes: passphrase, FIDO2, systemd credentials, and SSH agent piggyback.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-ssh-agent-piggyback-unstable
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 5353
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-unstable, moshpit-agent-fido2-unstable, moshpit-agent-systemd-creds-unstable, moshpit-agent-full-unstable
+Filename: pool/main/moshpit-agent-ssh-agent-piggyback-unstable_0.8.20_amd64.deb
+Size: 1750024
+MD5sum: 40601fb6f29ff8089b63d7bb778b88c3
+SHA1: f0151f29123b192977c4d9aaab55953a0a904ce0
+SHA256: ebde030aa1779e8c7b4de5a32d497805f89a66665bd658354f66ccff5e134467
+SHA512: 0fb4ba5f453a94e53c4f117d87b4cfb49df227baf2625d91fbd2b080ea8d7b37437564be57412911349bbd7fffb08d6ef59739670af2673a98f9cf4285de5f93
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — SSH agent piggyback unlock with post-quantum ML-DSA support.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock derived from SSH agent
+ challenge-response; seamless when ssh-agent is already running.
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-ssh-agent-piggyback-unstable
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 4372
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-unstable, moshpit-agent-fido2-unstable, moshpit-agent-systemd-creds-unstable, moshpit-agent-full-unstable
+Filename: pool/main/moshpit-agent-ssh-agent-piggyback-unstable_0.8.20_arm64.deb
+Size: 1567588
+MD5sum: 2bf4e21f6d1c6f58ad5777434b496bb8
+SHA1: ae96d73afdcc419f9bfa0d12341c3b2d2aa0d1bd
+SHA256: 4a85c20315a229872502939c3826998ce3b7932b86b887155073c8762cb45ab5
+SHA512: 6ec0f64e7722831fd973c784a7493cd2b54a32735080109ddc05e6d9b7cf54eb39f0fbdf76187a3e722c6808153d6a96cd2d71944d6095153da51c0c65471579
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — SSH agent piggyback unlock with post-quantum ML-DSA support.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock derived from SSH agent
+ challenge-response; seamless when ssh-agent is already running.
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-ssh-agent-piggyback
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 5059
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-full
+Filename: pool/main/moshpit-agent-ssh-agent-piggyback_0.8.20_amd64.deb
+Size: 1662018
+MD5sum: ebb8912bb43e349483c4852da42d7d39
+SHA1: 0aa8aa6e0ed45c9bf9835b8494a48edff1753074
+SHA256: e23c059a68e4b1301123ee4d38f335c30cadf32bf7ebad476f5cc03d9510211b
+SHA512: ef12b0fb56787b2461fe1f7ac6af9dd78082375759c109957733a6d574a18f676e7670b0bba37581f26c8cc7892d66a7774c62d93d68d74d9b6ef2ff77bd5fcd
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — SSH agent piggyback unlock backend.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock derived from SSH agent
+ challenge-response; seamless when ssh-agent is already running.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-ssh-agent-piggyback
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 4123
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-full
+Filename: pool/main/moshpit-agent-ssh-agent-piggyback_0.8.20_arm64.deb
+Size: 1491454
+MD5sum: 475d6661a20a98c994283dc2224554e2
+SHA1: 238288294fad28bd80173129b26ee40c8fb94ab9
+SHA256: 9342f815c29195bacf7a0a136ad1ff3bc3f3944966464bcb77497e666fbbef16
+SHA512: d31a3f8a3ab9c4df342dc75e2e516efba1baa387ff1f86498e3ef2f1ca4fbe7e592f7d6548f3c36a461c821800ceafcf4df5775eaa97cee415a41e0f7d03bec4
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — SSH agent piggyback unlock backend.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock derived from SSH agent
+ challenge-response; seamless when ssh-agent is already running.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-systemd-creds-unstable
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 5352
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-unstable, moshpit-agent-fido2-unstable, moshpit-agent-ssh-agent-piggyback-unstable, moshpit-agent-full-unstable
+Filename: pool/main/moshpit-agent-systemd-creds-unstable_0.8.20_amd64.deb
+Size: 1750218
+MD5sum: 8d21238b5b62881ee765036fd00b1677
+SHA1: 76a891a0625b6f7a023a493039616af7d23d2212
+SHA256: 0e16626a3fa5dcf0dac3d9c6f1cc85e1bd5cfb49a6165eed2bb83a894d18c8a6
+SHA512: b4eba3b216b8462ea0b437ecc877340d827634c05b83e26acd59599af434c4e376951a176e19165872829230da8081d595f5e364faf706fb633418266a0f6538
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — systemd credentials unlock with post-quantum ML-DSA support.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock via systemd .
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-systemd-creds-unstable
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 4371
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-unstable, moshpit-agent-fido2-unstable, moshpit-agent-ssh-agent-piggyback-unstable, moshpit-agent-full-unstable
+Filename: pool/main/moshpit-agent-systemd-creds-unstable_0.8.20_arm64.deb
+Size: 1567936
+MD5sum: 8ff445e96bab83884417d2dc33b2a55b
+SHA1: efe6f2e98df9ced4b2d69537109d14862707d138
+SHA256: 8c3bc48f86f79e133ce2732acf71aaffa102f891bea641a88b6813dcc2784d92
+SHA512: f6104fa35da1dcb82ef93ee3b5d5d35cca6bfc8303791f5a0fec7a3db8c278f1ddeceba72544cc503cb1e1b5da6756f96d62eb48cf5c33889f0551ac68ac09ce
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — systemd credentials unlock with post-quantum ML-DSA support.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock via systemd .
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-systemd-creds
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 5064
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full
+Filename: pool/main/moshpit-agent-systemd-creds_0.8.20_amd64.deb
+Size: 1663102
+MD5sum: 0b3b8c2be9f6dd540a577b41340fb83f
+SHA1: f1af80244f651c619f516465a900a7c35144574d
+SHA256: c5d5e055571db556a5c2c21e6d90eb3d2435cbc27abefeeb6b47ec5744273448
+SHA512: 91d0e13b53e778277eb7a76c9659156a464f8a1947fb34a7467f95e1f5f42143ff1429175402e72e0de0595ebe20b4ee4cf61df66955ea76c030b46f738cb740
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — systemd credentials unlock backend.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock via systemd .
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-systemd-creds
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 4125
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full
+Filename: pool/main/moshpit-agent-systemd-creds_0.8.20_arm64.deb
+Size: 1492134
+MD5sum: 64cec79b85e6b0180f52003284d07c6e
+SHA1: ed9bef8f4b66be268e46b937ad0463e39849bf74
+SHA256: 072a23ab7babffcd16c11b980bcc39460ebf6186191307731185736833e0dd03
+SHA512: 6c4c6e5cb3084cfc8d5cdecabd10fde203f0e2e7304f4797ae40b7697ac7eaa73acf230c0ba21aa306f19cbe2857087010577d4738bc42c2949edb54f8b81bb0
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — systemd credentials unlock backend.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket. Vault unlock via systemd .
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-unstable
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 5348
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-fido2-unstable, moshpit-agent-systemd-creds-unstable, moshpit-agent-ssh-agent-piggyback-unstable, moshpit-agent-full-unstable
+Filename: pool/main/moshpit-agent-unstable_0.8.20_amd64.deb
+Size: 1749270
+MD5sum: b0b3adc7ca59237f8eb688249782474e
+SHA1: b28ce0d67dbec0c9c5f0828964108c1eae64eb67
+SHA256: abe8248751f49d05aa3e8737c12dcb298b58e0ee6dd91d5bb01dc0690f30b9b9
+SHA512: 609f6c3c16490f276975c63449935b53fbf52b76083aa9a44c7bd65a172e8a3b27276a29c5f31563ec73d6893a3dbb5f60e02ea80427f6dd03b6aec1cfe2eb04
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — passphrase unlock with post-quantum ML-DSA support.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket so passphrases are only entered once.
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent-unstable
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 4367
+Conflicts: moshpit-agent, moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full, moshpit-agent-fido2-unstable, moshpit-agent-systemd-creds-unstable, moshpit-agent-ssh-agent-piggyback-unstable, moshpit-agent-full-unstable
+Filename: pool/main/moshpit-agent-unstable_0.8.20_arm64.deb
+Size: 1566670
+MD5sum: cf930e67a00932a6693e53c2888c6963
+SHA1: fdc3c913d05522dc77e9e169de6c38fb18da8097
+SHA256: 5834e889030507e681966f4e857de07f89727f146a04d5dcf36c315a7a6caccf
+SHA512: fe017790d2fbea00db2e4efd24808c861b950ea6a1cadf4334c042e64d31774f84c01dd55d00d55c3a425cc4e7d4419afe8a7ce93d6b343da894579e96e68716
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — passphrase unlock with post-quantum ML-DSA support.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket so passphrases are only entered once.
+ Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 5058
+Conflicts: moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full
+Filename: pool/main/moshpit-agent_0.8.20_amd64.deb
+Size: 1661882
+MD5sum: ae2fcd9478ff0cb49d94d5e827536663
+SHA1: bf2aac4b9edc28f3e6abba3ab07ef2c064f53f56
+SHA256: 1d38770857419e44373ed9c42489d2d45701e823a7bdc0b873eb8d3f3062c098
+SHA512: 01c3071a74d8b43a0b1e7dc06be8332b9c44ea1563c8bfe0d45e01fa4be9a0ee5ef2d73a945427d83c96c4d3407e33e030ac1bb561887c68f15389735ce11172
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — passphrase unlock.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket so passphrases are only entered once.
+License: MIT OR Apache-2.0
+
+Package: moshpit-agent
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 4122
+Conflicts: moshpit-agent-fido2, moshpit-agent-systemd-creds, moshpit-agent-ssh-agent-piggyback, moshpit-agent-full
+Filename: pool/main/moshpit-agent_0.8.20_arm64.deb
+Size: 1491290
+MD5sum: 5881149b42c9de6a00e5372de7fe26ca
+SHA1: 6ea26c8c0cafd2027d2ba0303f47700afeeaf40f
+SHA256: b20f9bff75ef43dfd4ea47886ce32b791e2b51406acb5f7f3a73cb3cc58ad900
+SHA512: 4dbafae5e77f80b72c539a7fa8d6ed2530e0c98db4c801f7c8b44209c59efe77f5f6532311f06f68cb2af731b21f00dc15ac3bb5c00bcc8f4e9597a41e77ea61
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Moshpit agent daemon — passphrase unlock.
+ Holds decrypted identity keys in memory and serves signing and public-key
+ requests to mp over a Unix socket so passphrases are only entered once.
+License: MIT OR Apache-2.0
+
+Package: moshpit-keygen-unstable
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 4393
+Provides: moshpit-keygen
+Conflicts: moshpit-keygen
+Replaces: moshpit-keygen
+Filename: pool/main/moshpit-keygen-unstable_0.8.20_amd64.deb
+Size: 1419844
+MD5sum: 62951317e1cd95ed90e0a55b427ed432
+SHA1: 60d4286f27d72b61686675c9c138bfb07f974b68
+SHA256: 72a1907fd444680e57d01d0b5779b9a66ef6711f7910783cbefc02a4c9c07035
+SHA512: da868fcfdb2323ce23f33f78412b47fb689a6e7647a4bf9da23ba12d2571327b81de9d4a39d1c51ebe39f0428817b48e46570f33d663122ce0e561d7b04bbcc3
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Asymmetric key generation and inspection tool for moshpit — with post-quantum support.
+ Generates and manages the key pairs used by both the moshpit client and the moshpits server
+ for mutual authentication. Supports X25519, P-384, P-256, and ML-DSA-65 identity key types.
+License: MIT OR Apache-2.0
+
+Package: moshpit-keygen-unstable
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 3407
+Provides: moshpit-keygen
+Conflicts: moshpit-keygen
+Replaces: moshpit-keygen
+Filename: pool/main/moshpit-keygen-unstable_0.8.20_arm64.deb
+Size: 1265148
+MD5sum: d6f3ded9bc0d5c3d666b73a477282707
+SHA1: 57d65aa89207d0c8764dbc1002ed64d499976d5c
+SHA256: 12bb4b8d5969e7a272e594038d592da92b3bf6899eb4d8159478148063cf2b65
+SHA512: 40cf788c0ab9429fd4a81eea7ce78c8349d50e3f54d2bf65c170c9ea756fa1b46670340aa665b23df8e17042e786f6b5257a4fb327bd0e5eea950a264fc9b32f
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Asymmetric key generation and inspection tool for moshpit — with post-quantum support.
+ Generates and manages the key pairs used by both the moshpit client and the moshpits server
+ for mutual authentication. Supports X25519, P-384, P-256, and ML-DSA-65 identity key types.
+License: MIT OR Apache-2.0
+
+Package: moshpit-keygen
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 4383
+Filename: pool/main/moshpit-keygen_0.8.20_amd64.deb
+Size: 1417372
+MD5sum: 0df2707a45cb4725619410341621a5f0
+SHA1: a2656f0883313b490a4e65e26710c8b0ea6accbd
+SHA256: 401feae72fcafa98e7b8c74243d0263143fa35b61558eb1e682063a9a9c431b1
+SHA512: 1e1f63c3e4bd9180d25e6d666fb8da69330090c3ae5e225ef4ebbc75771c91f7d5cc556000ac395fdbd21e4651d425c30b4c13aa090ca6bc88d692acee2c4418
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Asymmetric key generation and inspection tool for moshpit.
+ Generates and manages the key pairs used by both the moshpit client and
+ the moshpits server for mutual authentication.
+License: MIT OR Apache-2.0
+
+Package: moshpit-keygen
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 3400
+Filename: pool/main/moshpit-keygen_0.8.20_arm64.deb
+Size: 1262912
+MD5sum: 5f82c033ed5c7575432d12d12b9bcf38
+SHA1: e2eb0eb2dbcaafded1fe47fa725c06c017b29e75
+SHA256: 9895a26eb780223b4b3cb22e875334aa371c9adb3a34a9c14d0d310cefbc520f
+SHA512: 0a293c51596faf4e766a2969cd144a0ed1f71ec6b4626dfee952047d52f086a297ebcfdff1aa8d72b291296e79a2080d6a3d535b7a4c4caf97c7fd68a8b6047e
+Homepage: https://github.com/rustyhorde/moshpit
+Description: Asymmetric key generation and inspection tool for moshpit.
+ Generates and manages the key pairs used by both the moshpit client and
+ the moshpits server for mutual authentication.
+License: MIT OR Apache-2.0
+
+Package: moshpit-unstable
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 12269
+Provides: moshpit
+Conflicts: moshpit
+Replaces: moshpit
+Filename: pool/main/moshpit-unstable_0.8.20_amd64.deb
+Size: 3843298
+MD5sum: 5b2833f2ff92bf69f04a6efdd88adeba
+SHA1: 3e68fed7936e72e6c8334b784a1a4005d378f0ed
+SHA256: ab4faf8aaf7b08c1dc7cd2fe0d9c23bf58072f6a8badcdca25e5158910bb06e6
+SHA512: 2b481dce299b1ebd446ba6c4c2f32cb3e5aa419deb0aeaa608c300cc828e89955823d38e34acdc5d3a081c43773c211d26cfd54d099262c712448fa38a3e4230
+Homepage: https://github.com/rustyhorde/moshpit
+Description: moshpit client with post-quantum support — SSH and Mosh inspired remote terminal client.
+ Connects to a moshpits server over an encrypted channel using asymmetric mutual authentication
+ and AES-256-GCM-SIV UDP transport. Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit-unstable
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 10738
+Provides: moshpit
+Conflicts: moshpit
+Replaces: moshpit
+Filename: pool/main/moshpit-unstable_0.8.20_arm64.deb
+Size: 3424006
+MD5sum: c4eec7c8ef9a2a76e541697f3eb2844f
+SHA1: 356115d23ba1de7e9da2c252baab1de6d3f13d88
+SHA256: a0bd354af1aad42011deed10f52524c3e854bcecfa8848dab5a1644ed81e6231
+SHA512: addd73738b4d159f88c296714fb01475c1e7a21c652f0621008535da0133ac07277745b429f80a8cfd60abb5e4e1f38ff47418e726d4f7c4ed24307735370de6
+Homepage: https://github.com/rustyhorde/moshpit
+Description: moshpit client with post-quantum support — SSH and Mosh inspired remote terminal client.
+ Connects to a moshpits server over an encrypted channel using asymmetric mutual
+ authentication and AES-256-GCM-SIV UDP transport. Includes ML-DSA-65 post-quantum
+ identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpit
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 12194
+Filename: pool/main/moshpit_0.8.20_amd64.deb
+Size: 3827502
+MD5sum: c2a2d2a6e6eb48974ef429ea7506c939
+SHA1: de0b2a073df046bad287fcede0b714cf5a256b71
+SHA256: 23155c437f2b430583910797e3eb4f9e656da1b2d684997eca855f5256fa1801
+SHA512: f0cf5dc60b74a3dec6775be6e2d7fb1db11f79404de7cadd3919267a44f4db72839e04f7e07612efad2b49645db1c6cb0f76330918b5951d8e2074603778761b
+Homepage: https://github.com/rustyhorde/moshpit
+Description: SSH and Mosh inspired remote terminal client.
+ Connects to a moshpits server over an encrypted channel using asymmetric
+ mutual authentication and AES-256-GCM-SIV UDP transport.
+License: MIT OR Apache-2.0
+
+Package: moshpit
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 10674
+Filename: pool/main/moshpit_0.8.20_arm64.deb
+Size: 3407560
+MD5sum: cac0d5b7cfed4618eb4a7d6edb2db130
+SHA1: 01d3417ed487fe3a0218adfcf1adc77e044162a7
+SHA256: 9a8f1f7e3d4c9de739996934f434624c3a3e5908628b6889c8b4c3f5f8ace5d8
+SHA512: ed017cfa2bcab990d2e63a7c4ff886aab71f466bc013ff066bc7e48ee0eb2b32183823b9a1f6e3055892758bfa2e78973328ae4d19e3e58850c8530f9032d9fe
+Homepage: https://github.com/rustyhorde/moshpit
+Description: SSH and Mosh inspired remote terminal client.
+ Connects to a moshpits server over an encrypted channel using asymmetric
+ mutual authentication and AES-256-GCM-SIV UDP transport.
+License: MIT OR Apache-2.0
+
+Package: moshpits-unstable
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 14464
+Provides: moshpits
+Depends: moshpit-keygen
+Conflicts: moshpits
+Replaces: moshpits
+Filename: pool/main/moshpits-unstable_0.8.20_amd64.deb
+Size: 4517036
+MD5sum: eb3f3abdde54456d595db12ce88960f1
+SHA1: a3152a9fed38c9c46b66b7ae76e983d54b7a602b
+SHA256: edd77f38283a058abbd31fe1f789fa991d9f55cec9828f1ff8505a78b2090893
+SHA512: b79bd3bae8787daa409fae9a165e7d523ee2d1947ec6c73c467532f67d07e59752181416e9c1c6a897dcb6378c717c172b1e350331ec9d93c97b419c549e0bbf
+Homepage: https://github.com/rustyhorde/moshpit
+Description: moshpits server with post-quantum support — SSH and Mosh inspired remote terminal server.
+ Listens for moshpit client connections, manages PTYs, and streams encrypted terminal state
+ over UDP using AES-256-GCM-SIV. Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpits-unstable
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 13024
+Provides: moshpits
+Depends: moshpit-keygen
+Conflicts: moshpits
+Replaces: moshpits
+Filename: pool/main/moshpits-unstable_0.8.20_arm64.deb
+Size: 4086442
+MD5sum: cf705f7686d1408225ed2b1a23462bfb
+SHA1: 54420ad620955986119cc12d5e6458a0607215af
+SHA256: 95c07c42182d86b29da39e61bcedc9524d8355d62bd1ad7fb0f0a742eef59f4f
+SHA512: a3ab495746cf5df3acc23004193c5beafae6ea56276bc8f5ed223206ab592a48a561bc04afebb27ef429db2dd9f27b623edf383cd88cd8dc780ff816a11dc5fe
+Homepage: https://github.com/rustyhorde/moshpit
+Description: moshpits server with post-quantum support — SSH and Mosh inspired remote terminal server.
+ Listens for moshpit client connections, manages PTYs, and streams encrypted terminal state
+ over UDP using AES-256-GCM-SIV. Includes ML-DSA-65 post-quantum identity key support.
+License: MIT OR Apache-2.0
+
+Package: moshpits
+Architecture: amd64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 14418
+Depends: moshpit-keygen
+Filename: pool/main/moshpits_0.8.20_amd64.deb
+Size: 4500184
+MD5sum: 6ed7d5c0d7a91ed474faa3856178a5dd
+SHA1: 69ba96a80c449ccdb9ea0e3dc0c61b6475e00949
+SHA256: c1efa974a4ad8bdd23f812c871336ac325b20420dd4937e8fc4d6a336b314989
+SHA512: 97ed6af90ad0e63c9d3bd1be03263a3e7eddc890155dbd6ced2c19b00d665ff316b1b5b4c6e95af74de562435639893f171907bd8687ced7511eec5ae7dd4774
+Homepage: https://github.com/rustyhorde/moshpit
+Description: SSH and Mosh inspired remote terminal server.
+ Listens for moshpit client connections, manages PTYs, and streams
+ encrypted terminal state over UDP using AES-256-GCM-SIV.
+License: MIT OR Apache-2.0
+
+Package: moshpits
+Architecture: arm64
+Version: 0.8.20
+Priority: optional
+Section: net
+Maintainer: Jason Ozias <jason.g.ozias@gmail.com>
+Installed-Size: 12999
+Depends: moshpit-keygen
+Filename: pool/main/moshpits_0.8.20_arm64.deb
+Size: 4073214
+MD5sum: 9196a073119d06ea730bbc67b6bf7d98
+SHA1: 5494ef047b22a0ebb2a65c2f25925f41353d6829
+SHA256: ce84c2d67ff209474db102ec8eb8cdd750b77e9d98b2aa39b187dbf28b845b8d
+SHA512: 09e57fb8ef7744fbbe0baeec9c1678a52b9e8f648d67eb9da47abd777cfbe769c751e7b5a6ddb359153683e41d1f43bcdee7b34865cb58ab97579c3507b6541d
+Homepage: https://github.com/rustyhorde/moshpit
+Description: SSH and Mosh inspired remote terminal server.
+ Listens for moshpit client connections, manages PTYs, and streams
+ encrypted terminal state over UDP using AES-256-GCM-SIV.
+License: MIT OR Apache-2.0
+
