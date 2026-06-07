@@ -1,0 +1,6 @@
+[moshpit]
+name=moshpit Package Repository
+baseurl=https://rustyhorde.github.io/moshpit-packages/rpm/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://rustyhorde.github.io/moshpit-packages/gpg.key
