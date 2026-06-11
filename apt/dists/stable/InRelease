@@ -4,35 +4,35 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Sun, 07 Jun 2026 22:04:07 +0000
+Date: Thu, 11 Jun 2026 16:40:05 +0000
 Description: moshpit package repository
 Label: moshpit
 Origin: moshpit
 Suite: stable
 MD5Sum:
- 0ce7a35b164f9bb722cb367559a272fb              184 Release
- ed3c9133404312d81b7efe0007cef88b            32405 main/binary-arm64/Packages
- f5801a12de538158d3d7711813a2d36b             7406 main/binary-arm64/Packages.gz
- 4790f3e2d63d4cd8f9edd46957fe1410             6572 main/binary-arm64/Packages.xz
+ fcf13655077d9a1e449bacd03f74b803              184 Release
+ 874fec2ccc6ea6fc977caa9bf2201b91            32405 main/binary-arm64/Packages
+ c54a02776fa7f24ca71e53dadbc703ee             7433 main/binary-arm64/Packages.gz
+ 5c409b310aefd7050b1a390ae634c478             6584 main/binary-arm64/Packages.xz
 SHA1:
- d662a80d5d9038b3f967a70b58d2d6528d02d08b              184 Release
- eebd7e03a3431627510a6a75477c947c697cad3f            32405 main/binary-arm64/Packages
- ecff07b45cfc29ba2e879cec115f7f484ae76e56             7406 main/binary-arm64/Packages.gz
- e48dc83346583d6a62678013046f787bfe1f30ed             6572 main/binary-arm64/Packages.xz
+ 68108c54d470c800e85c9fc7e5ba9299058e9f7e              184 Release
+ efb08cacfcf5bdc79fe8d09564617b87190cf22a            32405 main/binary-arm64/Packages
+ 028540d704184403a28f185db9b5220947a6fef9             7433 main/binary-arm64/Packages.gz
+ 71585be1edcf902886a739fc8ff1720d7389311c             6584 main/binary-arm64/Packages.xz
 SHA256:
- 32cb69c215bd0d2856f4a5cf09814482dbc00389260689bb355845761de5375b              184 Release
- afcc61365012edaa8254616a2bf7ac782e49070fc77aa550c935b4ab9f3df7d0            32405 main/binary-arm64/Packages
- e3c52dda674c6ac8abea90eefe013c2d9c547264d422dd508293e9ce5325d192             7406 main/binary-arm64/Packages.gz
- d209fbbf27b5442c68cd2999decb98bf4d86f1aaa3ef2d848e3d47994a4f0eb0             6572 main/binary-arm64/Packages.xz
+ 9bba4bb81d2eb7a7ae1a872bbd72f27a597f494fd12625becf0e49864b1c2ce0              184 Release
+ c7a4fc65f7397d36381333f17bf59f457cdead870e996006035dfe3902240392            32405 main/binary-arm64/Packages
+ 7a68fc6becf18c110be5c83c957aa73b7eb3b4d09deb82b147f76bf8f47ce745             7433 main/binary-arm64/Packages.gz
+ 198a0952bb09e4c68c116103fa2882b4278a8bb7bae6a3d3bc504d98b297c4f7             6584 main/binary-arm64/Packages.xz
 SHA512:
- db2242b777dabee939d2257ec25ddd3bbc8d8eb0728721915c0dd5351f3f1cc1192ad2eed827ac3dcaa585ae1648410f50713aaa54b85c35d7340b276c1b20f3              184 Release
- 1f01f05f3ab22cc27d74afca7d6466d31d282521fb03280f719a70a56ee0e287c38e97d51de4829472fc28d67abbf56b13b9034088b74e631afb8974c900e1a7            32405 main/binary-arm64/Packages
- a84afb66bcb0ac25467a2fadbf94a47c887cd5cd22f331936a9ec31a9f81fce598831967cde40f76e8cfabb49af36a0544d48a8df95515d9854ddfdbadebda2e             7406 main/binary-arm64/Packages.gz
- 4b4642f4df9f1a2cecaed4743ebe19502b2b4abf600efecb734b9112b7f5ef2d8ed0c5d307c68f0f70a635a5945ee55e9e908d7c7c2019ef23e7fd1a240369ad             6572 main/binary-arm64/Packages.xz
+ f8ccf2959ef926775fae5e4decda6422284cc35ec4e4b9ba5d760771671919af8eb61da4229dd15de88af53541de367a9b9abbfefb43c5a98565c22d5a5b57fc              184 Release
+ bdfab3334c134dec8ab913449134a2455a458d2102117acb5f42f55ea38b39f1fb6ba2e63ef4ac2df17dc017787432e40845225c2a7ed25dd317e030d492f36f            32405 main/binary-arm64/Packages
+ a27290fcf9305de2dc18de034595d14a83531ff9a6d9cda6c8e0517a412500865cf6bdccbe3752218d89160123b0f8dd15b38df66a827c231d41d48b77eab203             7433 main/binary-arm64/Packages.gz
+ 3822460b9d2312df95c132096f45b8d2ee956ab2a76757210a168e1febb377f1ae5f22f9b13ffeba09bffac94175fe0811f5ecbc8debe32c035b2b78e5902863             6584 main/binary-arm64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQR0UtL8tJiCMmt1gOhaJfuaDkFLZwUCaiXq1wAKCRBaJfuaDkFL
-ZwRUAQCBl8rluqZGDSjonnHv3O2NJkIAR7z/g8/FjmcXAin7cgD/XRVMH0/dgHpS
-e3owYfkI7KHZgkuCWbzySyA8oMpzZA4=
-=YbRt
+iHUEARYKAB0WIQR0UtL8tJiCMmt1gOhaJfuaDkFLZwUCairk5QAKCRBaJfuaDkFL
+Z73iAQDhICTyOszO+ffbNXta0dJoizoNsVDCbogYM4QhVD/qcwEA5pmyAC7mc0w5
+jlKBO5Xya/lvRG2apwB9dl/7vW59vAs=
+=h9w3
 -----END PGP SIGNATURE-----
